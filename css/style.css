@@ -1,0 +1,384 @@
+:root
+{
+    --intel-color:#3A68B8;
+    --main-color:#FFFFFF;
+    --header-color: #0A121F;
+    --hero-color:#09111E;
+    --section-color:#020A18;
+    --cards-color: #2C3647;
+    --footer-color: #08101E;
+}
+
+ul,ol,button
+{
+    padding: 0;
+    margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+img
+{
+    display: block;
+}
+.invisible
+{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+body
+{
+    color: var(--main-color);
+    font-family: 'Open Sans' sans-serif;
+    font-size: 14px;
+}
+.list
+{
+    list-style: none;
+}
+.link
+{
+    text-decoration: none;
+}
+.header
+{
+    min-width: 1200px;
+    /* background-color: var(--header-color); */
+    background-color: #11171f;
+}
+.container
+{
+    width: 1146px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.nav-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.link-header
+{
+    display: flex;
+    align-items: center;
+}
+.robot-header
+{
+    width: 44px;
+    height: 57px;
+    margin-right: 15px;
+}
+.header-text
+{
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 1.3;
+    color: var(--intel-color);
+    margin-right: 84px;
+}
+.list-title 
+{
+    display: flex;
+    align-items: center;
+}
+.list-container:not(:last-child)
+{
+    margin-right: 40px;
+}
+.menu-link
+{
+    display: inline-flex;
+    align-items: center;
+    color: var(--main-color);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.3;
+    padding-top: 39px;
+    padding-bottom: 39px;    
+}
+.btn-header
+{
+    margin-left: auto;
+    padding: 15px 30px;
+    background-color: var(--intel-color);
+    color: var(--main-color);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.3;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.brain
+{
+    min-width: 1200px;
+    background: #11161d;
+    padding-bottom: 99px;
+}
+.section-container
+{
+    width: 1146px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    background-image: url(../images/svg/rocket.svg);
+    background-repeat: no-repeat;
+    background-position: top 49px right 0px;
+    background-size: 509px 511px;
+    padding-top: 160px;
+    
+}
+.above-title
+{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 160%;
+    text-transform: uppercase;
+    color: var(--intel-color);
+    margin-bottom: 10px;
+}
+.title
+{
+    /* display: flex;
+    flex-wrap: wrap; */
+    max-width: 604px;
+    font-weight: 800;
+    font-size: 55px;
+    line-height: 130%;
+    color: var(--main-color);
+    margin-bottom: 40px;
+}
+.text-section
+{
+    max-width: 528px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 160%;
+    color: var(--main-color);
+    opacity: 0.7;
+    margin-bottom: 50px;
+}
+.btn-flex
+{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-bottom: 197px;
+    
+}
+.button-section
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--intel-color);
+    color: var(--main-color);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.3;
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: none;
+}
+.img-play
+{
+    margin-right: 10px;
+}
+.button-section:nth-child(1)
+{
+    margin-right: 20px;
+}
+.clients-logo
+{
+    display: flex;
+    align-items: center;
+}
+.title-clients:not(:last-child)
+{
+    margin-right: 70px;
+}
+
+/* =========Section 2 ============= */
+.brain-two
+{
+    min-width: 1200px;
+    background: var(--hero-color);
+    padding-top: 130px;
+    padding-bottom: 50px;
+    
+}
+.brain-container
+{
+    width: 1146px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+    background-image: url(../images/svg/brain.svg);
+    background-repeat: no-repeat;
+    background-size: 646px 596px;
+    background-position:top left ;  
+}
+.thumb
+{
+    padding-top: 108px;
+    display: flex;
+    flex-direction: column;
+    width: 484px;
+    margin-bottom: 347px;
+    
+}
+.brain-title
+{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 1.3;
+    color: var(--main-color);
+    margin-bottom: 30px;
+}
+.brain-text
+{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #FFFFFF;
+    opacity: 0.7;
+    width: 455px;
+    margin-bottom: 50px;
+}
+.brain-button
+{
+    padding: 15px 30px;
+    width: 150px;
+    background: #3A68B8;
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.3;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.list-features
+{
+    width: 1146px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+.brain-list{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+.brain-list-title
+{
+    display: flex;
+    align-items: center;
+    width: 362px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255,0.1);
+    opacity: 0.8;
+}
+.brain-list-title:not(:last-child)
+{
+    margin-right: 30px;
+}
+.features-link
+{
+    display: inline-block;
+    align-items: center;
+    padding: 30px;
+}
+.list-number
+{
+    margin: 0 auto;
+}
+.link-title
+{
+    margin-top: 30px;
+    width: 302px;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 1.2;
+    text-align: center;
+    color: var(--main-color);
+    opacity: 0.7;
+}
+.link-text
+{
+    margin-top: 30px;
+    min-width: 287px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    color: var(--main-color);
+    opacity: 0.7;
+}
+.intel-new
+{
+    min-width: 1200px;
+    background: var(--hero-color);
+    position: relative;
+}
+.container-new
+{
+    width: 1146px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    background-image: url(../images/svg/boyComputer.svg);
+    background-repeat: no-repeat;
+    background-size: 642px 551px;
+    background-position: top 125px right -40px;
+    padding-top: 170px;
+    padding-bottom: 170px;
+}
+
+.intel-container
+{
+    width: 548px;
+}
+.intel-title
+{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 1.3;
+    color: var(--main-color);
+    margin-bottom: 40px;
+}
+.intel-text
+{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #FFFFFF;
+    opacity: 0.7;
+    width: 460px;
+}
+.intel-text:not(:last-child)
+{
+    margin-bottom: 20px;
+}
